@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/transparent"
     tools:ignore="MissingConstraints"
     tools:layout_editor_absoluteX="8dp"
-    tools:layout_editor_absoluteY="252dp">
+    tools:layout_editor_absoluteY="252dp"
+    android:background="@android:color/transparent">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"

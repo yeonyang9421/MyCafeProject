@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu_recycler_Activity"
-    android:background="@drawable/takeout"
+    tools:context=".PageTwoFragment"
+    android:background="@drawable/back"
     android:orientation="vertical">
     <TextView
         android:textSize="30dp"
-        android:text=" "
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text="Table NO. "
         android:layout_width="wrap_content"
-        android:layout_height="120dp" />
+        android:layout_height="wrap_content" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/menu_recycler_view"
@@ -27,11 +30,8 @@
         android:text="Total : "
         android:textColor="#ffffff"
         android:textSize="30dp"
-
         android:layout_gravity="right"
         android:layout_marginRight="20dp"
-
-
         android:layout_width="wrap_content"
-        android:layout_height="100dp" />
+        android:layout_height="wrap_content" />
 </LinearLayout>

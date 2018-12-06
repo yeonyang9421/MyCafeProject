@@ -28,13 +28,16 @@ private String[] mPageTitles;
             case 2:
                 PageThreeFragment tab3=new PageThreeFragment();
                 return tab3;
+            case 3:
+                PageFourFragment tab4=new PageFourFragment();
+                return tab4;
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
 

@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 //        Toolbar toolbar=findViewById(R.id.toolbar);
         TabLayout mTab = findViewById(R.id.tabs);
         ViewPager  mViewPager=findViewById(R.id.viewpager);
-        CafePagerAdapter mCafePagerAdapter= new CafePagerAdapter(getSupportFragmentManager(), new String[]{"주문현황", "Take-out","매출현황"});
+        CafePagerAdapter mCafePagerAdapter= new CafePagerAdapter(getSupportFragmentManager(), new String[]{"테이블주문", "Take-out","매출현황","주문현황"});
         mViewPager.setAdapter(mCafePagerAdapter);
         mTab.setupWithViewPager(mViewPager);
     }

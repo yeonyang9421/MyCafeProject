@@ -4,34 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu_recycler_Activity"
     android:background="@drawable/takeout"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".PageTwoFragment">
+
     <TextView
-        android:textSize="30dp"
-        android:text=" "
         android:layout_width="wrap_content"
-        android:layout_height="120dp" />
+        android:layout_height="120dp"
+        android:text=" "
+        android:textSize="30dp" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/menu_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
+        android:background="@drawable/back"
         tools:ignore="MissingConstraints"
-        android:background="@drawable/back"/>
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
     <TextView
         android:id="@+id/textViewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
         android:gravity="bottom"
         android:text="Total : "
         android:textColor="#ffffff"
-        android:textSize="30dp"
-
-        android:layout_gravity="right"
-        android:layout_marginRight="20dp"
-
-
-        android:layout_width="wrap_content"
-        android:layout_height="100dp" />
+        android:textSize="30dp" />
 </LinearLayout>
