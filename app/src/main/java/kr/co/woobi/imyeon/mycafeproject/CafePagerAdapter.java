@@ -16,11 +16,6 @@ private String[] mPageTitles;
     }
 
 
-
-    public CafePagerAdapter(FragmentManager fm) {
-        super(fm);
-    }
-
     @Override
     public Fragment getItem(int i) {
         switch (i) {
